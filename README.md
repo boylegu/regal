@@ -1,6 +1,5 @@
 # Regal
 ====
-
 [![](https://img.shields.io/badge/release-v1.0-yellow%20green.svg)]()
 [![versions](https://img.shields.io/badge/python-2.7-yellow.svg)]()
 
