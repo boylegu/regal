@@ -14,7 +14,10 @@ class BaseInfo(object):
         self.combine = 1 if not combine else combine
 
     def __add_info(self):
-        version_group = [(version, [hostname]) for version, hostname in self.host_version.iteritems()]
+        try:
+            version_group = [(version, [hostname]) for version, hostname in self.host_version.iteritems()]
+        except:
+            raise AttributeError("ERROR! The information is wrong")
         return version_group
 
     def grouping(self, priority_name=None):
