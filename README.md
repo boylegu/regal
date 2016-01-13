@@ -5,6 +5,7 @@
 [![ver](https://img.shields.io/badge/release-v1.1-red.svg)]()
 [![MIT](https://img.shields.io/badge/license-MIT-blue.svg)]()
 [![coverage](https://img.shields.io/badge/coverage-92%25-yellowgreen.svg)]()
+[![Build Status](https://travis-ci.org/boylegu/regal.svg?branch=master)](https://travis-ci.org/boylegu/regal)
 
 用于"灰度发布"或 A/B Testing的智能分组引擎
 
