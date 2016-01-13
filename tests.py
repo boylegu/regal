@@ -1,6 +1,8 @@
 from unittest import TestCase
 
 from regal import BaseInfo
+from regal.grouping import GroupAlgorithm
+from regal.check_interface import AlgorithmABC
 
 
 # Run Method: python -m unittest -v tests.py
@@ -37,3 +39,8 @@ class TestGroupingResult(TestCase):
         ab = BaseInfo(self.ver, self.combine_num, schedule_num)
         instance_combine_num = ab.grouping().result[0][1]
         self.assertEqual(len(instance_combine_num[0][0].split(',')), schedule_num)
+
+
+class TestInstance(TestCase):
+    def test_algorithm_instance(self):
+        self.assertIsInstance(GroupAlgorithm(), AlgorithmABC)
