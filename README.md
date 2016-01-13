@@ -1,8 +1,10 @@
 # Regal
 ====
 
-[![ver](https://img.shields.io/badge/release-v1.0-yellow%20green.svg)]()
 [![pyversions](https://img.shields.io/badge/python-2.7-yellow.svg)]()
+[![ver](https://img.shields.io/badge/release-v1.0-yellow%20green.svg)]()
+[![MIT](https://img.shields.io/github/license/mashape/apistatus.svg)]()
+[![coverage](https://img.shields.io/badge/coverage-92%25-yellowgreen.svg)]()
 
 用于"灰度发布"或 A/B Testing的智能分组引擎
 
