@@ -1,12 +1,13 @@
 # coding: utf-8
-from abc import ABCMeta
+import abc
+
+from six import with_metaclass
 
 
-class AlgorithmABC:
+class AlgorithmABC(with_metaclass(abc.ABCMeta, object)):
     """
     实现了一套简单的虚拟接口检查类, 主要用于检测'发布算法器'的各项接口是否存在.
     """
-    __metaclass__ = ABCMeta
 
     @classmethod
     def __subclasshook__(cls, subclass):

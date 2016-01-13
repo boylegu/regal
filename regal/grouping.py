@@ -1,10 +1,12 @@
 # coding: utf-8
 from operator import contains
 
+from six.moves import xrange
+
 
 class GroupAlgorithm(object):
     """
-    一个abstraction class,主要实现了分流算法的接口,不过代码应该还可以再一次深度优化;因为稍微改动一下,可以用堆数据结构来实现
+    一个abstraction class,主要实现了分流算法的接口,不过代码应该还可以再一次深度优化;
 
     """
     base_hostlist = None
