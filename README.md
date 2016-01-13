@@ -1,9 +1,9 @@
 # Regal
 ====
 
-[![pyversions](https://img.shields.io/badge/python-2.7-yellow.svg)]()
-[![ver](https://img.shields.io/badge/release-v1.0-yellow%20green.svg)]()
-[![MIT](https://img.shields.io/github/license/mashape/apistatus.svg)]()
+[![pyversions](https://img.shields.io/badge/Python-2%20%26%203-brightgreen.svg)]()
+[![ver](https://img.shields.io/badge/release-v1.1-red.svg)]()
+[![MIT](https://img.shields.io/badge/license-MIT-blue.svg)]()
 [![coverage](https://img.shields.io/badge/coverage-92%25-yellowgreen.svg)]()
 
 用于"灰度发布"或 A/B Testing的智能分组引擎
@@ -29,6 +29,7 @@
   1. 提供发布策略，动态智能分流
   2. 支持多版本分组和优先级
   3. 数据格式化
+  4. 同时兼容Python2.5以上和Python3以上的版本（建议使用Python2.7+或者Python3.5以后的版本）
   
 
 ## 安装和使用

@@ -1,0 +1,23 @@
+
+Changelog for Regal
+=================
+
+This file lists the changes in each regal version.
+
+
+1.1
+-----
+
+- 新增对Python3的支持
+
+- 修复小部分引起异常问题
+
+
+1.0
+-----
+
+- 提供发布策略，动态智能分流
+
+- 支持多版本分组和优先级
+
+- 提供基本的数据格式化
