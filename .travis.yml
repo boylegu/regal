@@ -11,6 +11,6 @@ install:
   - "pip install coveralls"
 
 # command to run tests
-script: python -m unittest
+script: coverage run --source=regal setup.py test
 
 after_scuccess: "coveralls"
