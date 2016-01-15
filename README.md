@@ -1,11 +1,12 @@
 # Regal
 ====
 
-[![pyversions](https://img.shields.io/badge/Python-2%20%26%203-brightgreen.svg)]()
+[![pyversions](https://img.shields.io/badge/python-2.6%2C2.7%2C3.4%2C3.5-blue.svg)]()
 [![ver](https://img.shields.io/badge/release-v1.1-red.svg)]()
 [![MIT](https://img.shields.io/badge/license-MIT-blue.svg)]()
 [![coverage](https://img.shields.io/badge/coverage-92%25-yellowgreen.svg)]()
 [![Build Status](https://travis-ci.org/boylegu/regal.svg?branch=master)](https://travis-ci.org/boylegu/regal)
+[![Code Climate](https://codeclimate.com/github/boylegu/regal/badges/gpa.svg)](https://codeclimate.com/github/boylegu/regal)
 
 用于"灰度发布"或 A/B Testing的智能分组引擎
 
