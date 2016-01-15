@@ -7,6 +7,7 @@
 [![coverage](https://img.shields.io/badge/coverage-92%25-yellowgreen.svg)]()
 [![Build Status](https://travis-ci.org/boylegu/regal.svg?branch=master)](https://travis-ci.org/boylegu/regal)
 [![Code Climate](https://codeclimate.com/github/boylegu/regal/badges/gpa.svg)](https://codeclimate.com/github/boylegu/regal)
+[![Coverage Status](https://coveralls.io/repos/boylegu/regal/badge.svg?branch=master&service=github)](https://coveralls.io/github/boylegu/regal?branch=master)
 
 用于"灰度发布"或 A/B Testing的智能分组引擎
 
