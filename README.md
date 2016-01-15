@@ -1,6 +1,8 @@
 # Regal
 ====
 
+[![Join the chat at https://gitter.im/boylegu/regal](https://badges.gitter.im/boylegu/regal.svg)](https://gitter.im/boylegu/regal?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![pyversions](https://img.shields.io/badge/Python-2%20%26%203-brightgreen.svg)]()
 [![ver](https://img.shields.io/badge/release-v1.1-red.svg)]()
 [![MIT](https://img.shields.io/badge/license-MIT-blue.svg)]()
