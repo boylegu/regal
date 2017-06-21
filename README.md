@@ -10,6 +10,9 @@ Regal
 
 用于"灰度发布"或 A/B Testing的智能分组引擎
 
+<p align="center">
+  <a href ="##"><img alt="sanic_vue" src="https://github.com/boylegu/regal/blob/master/image/logo.jpg?raw=true"></a>
+
 ## Regal能做什么？
 举个最简单的例子，比如需要针对一个版本进行灰度发布，而这一版本对应的可能是一大堆服务器集群， 如下图:
 
