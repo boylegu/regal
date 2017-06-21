@@ -60,4 +60,6 @@ target/
 # PycharmIDE tempfile
 .idea
 
-image
+# image & logo
+image/*.xml
+image/*.pxm
