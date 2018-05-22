@@ -16,7 +16,7 @@ Regal
 ## Regal能做什么？
 举个最简单的例子，比如需要针对一个版本进行灰度发布，而这一版本对应的可能是一大堆服务器集群， 如下图:
 
-![Markdown](http://i2.muimg.com/536217/71281a19596c5dd1.png)
+![Markdown](https://github.com/boylegu/regal/blob/master/image/regal_img.png?raw=true)
 
 就像图中描述的一样，无论你的服务器是多还是少，尤其很多中小型企业在进行灰度发布时，通常会遇到所制定的分流策略在实际的技术或开发中如何去实现，是机器直接写死？
 
@@ -25,7 +25,7 @@ Regal
 
 假设有一个版本A，需要针对六台机器进行发布
 
-![Markdown](http://i2.muimg.com/536217/5f7d4115746b6e97.png)
+![Markdown](https://github.com/boylegu/regal/blob/master/image/regal_imag2.png?raw=true)
 
 现在应该已经了解Regal到底是什么干货了吧，当然了，上面的例子是服务器非常少的情况，实际情况中，所面对的服务器集群是非常多，这个时候可以通过提供的``combine``和``schedule``两个API进行策略调整。详情可以见下文的``使用介绍``
 
@@ -71,7 +71,7 @@ Out[12]:
 ```
 根据你的策略设置，会得到一个数据结构，我们来观察一下：
 
-![Markdown](http://i2.muimg.com/536217/70e4610ed795f74e.png)
+![Markdown](https://github.com/boylegu/regal/blob/master/image/regal_imag3.png?raw=true)
 
 再看一个例子
 
@@ -175,7 +175,7 @@ versionA:
 
 ## Darwin's finches
 
-![Markdown](http://i2.muimg.com/536217/23bca6d47865f8c8.jpg)
+![Markdown](https://github.com/boylegu/regal/blob/master/image/regal-logo.jpg?raw=true)
 
 第一次在Mac上绘图，这就当做本项目的吉祥物吧～
 
