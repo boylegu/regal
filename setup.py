@@ -5,7 +5,7 @@ except ImportError:
     from distutils.core import setup
 
 
-__version_info__ = (1, 1)
+__version_info__ = (1, 2)
 __version__ = '.'.join([str(v) for v in __version_info__])
 
 with open(os.path.join(os.path.dirname(__file__), 'README.md')) as readme:
