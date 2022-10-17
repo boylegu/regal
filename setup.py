@@ -5,7 +5,7 @@ except ImportError:
     from distutils.core import setup
 
 
-__version_info__ = (1, 2)
+__version_info__ = (1, 3)
 __version__ = '.'.join([str(v) for v in __version_info__])
 
 with open(os.path.join(os.path.dirname(__file__), 'README.md')) as readme:
@@ -24,7 +24,7 @@ setup(
     url='https://github.com/boylegu/regal',
     author='BoyleGu',
     author_email='gubaoer@hotmail.com',
-    install_requires=['six==1.10.0'],
+    install_requires=['six==1.11.0'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
