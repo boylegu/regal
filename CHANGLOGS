@@ -5,6 +5,13 @@ Changelog for Regal
 This file lists the changes in each regal version.
 
 
+1.3
+-----
+
+- 新增对six 1.11的支持
+
+- 新增tools模块，支持打散
+
 1.1
 -----
 
