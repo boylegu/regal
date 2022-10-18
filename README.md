@@ -1,5 +1,5 @@
 Regal
-====
+=====
 
 [![pyversions](https://img.shields.io/badge/python-2.6%2C2.7%2C3.4%2C3.5-blue.svg)]()
 [![ver](https://img.shields.io/badge/release-v1.3-red.svg)]()
